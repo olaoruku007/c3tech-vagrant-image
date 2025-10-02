@@ -8,7 +8,7 @@
 Vagrant.configure("2") do |config|
 
   config.vm.box = "c3tech-linuxclub-image"
-#config.vm.box_url =
+  config.vm.box_url = https://github.com/olaoruku007/c3tech-vagrant-image.git
 config.vm.provider "virtualbox" do |vb|
     vb.memory = "2048"
     vb.cpus = 2
