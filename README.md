@@ -1,0 +1,1 @@
+# c3tech-vagrant-image
